@@ -1,0 +1,34 @@
+{
+   "room":"MuzikosVillage",
+   "rules":{
+      "allowAutorespond":true,
+      "allowAutowoot":true,
+      "allowAutojoin":true,
+      "allowAutograb":true
+   },
+   "ccc":{
+      "ambassador":"#89be6c !important",
+      "bouncer":"#01e1ff",
+      "cohost":"#FF3558",
+      "rdj":"#89BE6C",
+      "host":"#FF3558",
+      "manager":"#0191ff",
+      "admin":null,
+      "subscriber":null,
+      "friend":null,
+      "user":null
+   },
+   "images":{
+      "background":"https://i.imgur.com/o8U69An.jpg",
+      "playback":"https://mitchdev.net/pdj/playback.png",
+      "admin":null,
+      "ambassador":null,
+      "host":"https://mitchdev.net/pdj/host.png",
+      "cohost":"https://mitchdev.net/pdj/host.png",
+      "manager":"https://mitchdev.net/pdj/manager.png",
+      "bouncer":"https://mitchdev.net/pdj/bouncer.png",
+      "rdj":"https://mitchdev.net/pdj/rdj.png",
+      "silversubscriber":null,
+      "subscriber":null
+   }
+}
