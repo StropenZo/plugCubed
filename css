@@ -1,0 +1,159 @@
+/* Custom Style Theme For Plug.DJ */
+
+#chat .emote, #chat .mention, #chat .message, #chat .moderation, #chat .skip, #chat .system, #chat .update, #chat .welcome {
+    -moz-animation: fadein 0.25s;
+    -ms-animation: fadein 0.25s;
+    -o-animation: fadein 0.25s;
+    -webkit-animation: fadein 0.25s;
+    animation: fadein 0.25s;
+    background-color: #0E0E0F;
+    border-radius: 10px;
+    margin-top: 2px;
+}
+
+#chat .emote:nth-child(2n+1), #chat .mention:nth-child(2n+1), #chat .message:nth-child(2n+1), #chat .moderation:nth-child(2n+1), #chat .skip:nth-child(2n+1), #chat .update:nth-child(2n+1), #chat .welcome:nth-child(2n+1) {
+    -moz-animation: fadein 0.25s;
+    -ms-animation: fadein 0.25s;
+    -o-animation: fadein 0.25s;
+    -webkit-animation: fadein 0.25s;
+    animation: fadein 0.25s;
+    background-color: #111317;
+    border-radius: 10px;
+}
+
+#chat .message:hover, #chat .emote:hover, #chat .update:hover {
+    -moz-transition: 100ms linear 50ms;
+    -o-transition: 100ms linear 50ms;
+    -webkit-transition: 100ms linear 50ms;
+    border-left: #FFFFFF 3px solid;
+    padding-left: 2px;
+    text-decoration: none;
+    transition: 100ms linear 50ms;
+}
+
+#chat-messages&gt;div {
+    -moz-animation-duration: .001s;
+    -moz-animation-name: emojiNodeInserted;
+    -ms-animation-duration: .001s;
+    -ms-animation-name: emojiNodeInserted;
+    -o-animation-duration: .001s;
+    -o-animation-name: emojiNodeInserted;
+    -webkit-animation-duration: .001s;
+    -webkit-animation-name: emojiNodeInserted;
+    animation-duration: .001s;
+    animation-name: emojiNodeInserted;
+}
+
+#dj-button .left {
+    background: linear-gradient(to bottom,rgba(0, 46, 230, 0.75) 0,rgba(0, 177, 221, 0.75) 100%);
+}
+
+#dj-button.is-quit .left, #dj-button.is-leave .left, #playlist-delete-button:hover {
+    background: linear-gradient(to bottom,rgba(255, 0, 0, 0.74) 0,rgba(255, 41, 0, 0.75) 100%);
+}
+
+#footer {
+    background: linear-gradient(to bottom,rgba(16, 92, 107, 1) 0,rgba(0, 0, 0, 1) 100%);
+}
+
+#footer-user.available {
+    background: linear-gradient(to bottom,rgba(76, 122, 50, 0.8) 0,rgba(0, 0, 0, 0) 100%);
+    top: 1px;
+}
+
+#footer-user.away {
+    background: linear-gradient(to bottom,rgba(109, 92, 40, 0.8) 0,rgba(0, 0, 0, 0) 100%);
+    top: 1px;
+}
+
+#footer-user.working {
+    background: linear-gradient(to bottom,rgba(132, 41, 25, 0.8) 0,rgba(0, 0, 0, 0) 100%);
+    top: 1px;
+}
+
+#grab.selected {
+    background: linear-gradient(to bottom,rgba(170, 116, 255, 0.94) 0,rgba(83, 30, 104, 1) 100%);
+}
+
+#history-button {
+    background: linear-gradient(to bottom,rgba(46, 0, 116, 1) 0,rgba(83, 30, 104, 1) 100%);
+}
+
+#history-button.selected {
+    background: linear-gradient(to bottom,rgba(83, 30, 104, 1) 0,rgba(46, 0, 116, 1) 100%);
+}
+
+#meh.selected {
+    background: linear-gradient(to bottom,rgba(220, 0, 0, 1) 0,rgba(100, 0, 0, 1) 100%);
+}
+
+#playlist-button {
+    background: linear-gradient(to bottom,#7000FF 0,#000000 100%);
+}
+
+#plugcubed {
+    background: linear-gradient(to bottom,rgba(46, 0, 116, 1) 0,rgba(83, 30, 104, 1) 100%);
+}
+
+#toast-notifications .notification .left {
+    background: linear-gradient(to bottom, #961D88 0, #41073C 100%);
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.75);
+}
+
+#toast-notifications .notification .right {
+    background: linear-gradient(to bottom, rgba(14, 14, 15, 0), rgba(46, 0, 116, 50), rgba(14, 14, 15, 100));
+    box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.75);
+}
+
+#woot.selected {
+    background: linear-gradient(to bottom,rgba(0, 200, 0, 1) 0,rgba(0, 120, 0, 1) 100%);
+}
+
+.app-header {
+    background: linear-gradient(to bottom,rgba(46, 0, 116, 1) 0,rgba(83, 30, 104, 1) 100%);
+}
+
+.header-panel-button.selected {
+    background: linear-gradient(to bottom,rgba(83, 30, 104, 1) 0,rgba(46, 0, 116, 1) 100%);
+}
+
+/* chat stuff below */
+
+#chat .mention.is-you:nth-child(2n+1) {
+    background: #111317
+    border-left:#ffdd6f 3px solid
+;
+}
+
+#chat .mention.is-you {
+    background: #0a0a0a;
+    border-left: #ffdd6f 3px solid
+;
+}
+
+div.from {
+    float: left;
+    z-index: 2;
+    height: 10px
+;
+}
+
+#chat .from::after {
+    content: "&nbsp;&nbsp;&nbsp;"
+;
+}
+
+#chat .msg {
+    padding: 5px 8px 6px 10px;
+}
+
+div.badge-box {
+    display: none
+;
+}
+
+#chat .timestamp {
+    display: none;
+}
+
