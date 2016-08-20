@@ -1,4 +1,4 @@
-/* Css by: Wlff */
+/* Css by: StropenZo */
 /* Wlf transparent theme Version: 1.02 */
 
 /*i see you looking around here*/
@@ -9,15 +9,15 @@
     background-position: -5px 0px;
 }
 .icon-room {
-   background: url("https://dl.dropboxusercontent.com/s/doa8hmzzp4jt7i4/Logo.png") !important;
-   background-size: 30px 30px !important;
+   background: url("http://icons.iconarchive.com/icons/mirella-gabriele/valentine/32/Music-Heart-icon.png") !important;
+   background-size: 32px 32px !important;
 }
 i.icon.icon-current-dj {
-    background-image: url("https://dl.dropboxusercontent.com/s/fzvi9h23qg069ex/music.png") !important; 
+    background-image: url("http://icons.iconarchive.com/icons/babasse/old-school/32/music-icon.png") !important; 
     background-position: 1px 0px;
 }
 #app{
-  background-image:url("https://dl.dropboxusercontent.com/s/24g433uzjqbk81o/Background.png");
+  background-image:url("http://i.imgur.com/zwQ3A72.gif");
   background-size:cover !important;
 }   
 #dj-booth{
@@ -405,33 +405,25 @@ i.icon.icon-leave-booth-big  {
 #meh .bottom {
     background: rgba(196, 46, 59, 0.5);
 }
-i.icon.icon-woot {
-   background-image: url("https://dl.dropboxusercontent.com/s/6vjqrxy37iu4489/Woot.png") !important;
-   background-position: 1px 0px;
+/* WOOT GRAB MEH */
+#meh, #woot, #grab {
+  opacity: 0.6;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
-i.icon.icon-grab {
-   background-image: url("https://dl.dropboxusercontent.com/s/4y0w8wd53it1evi/Grab.png") !important;
-   background-position: 1px 0px;
+
+#vote:hover > #woot, 
+#vote:hover > #grab, 
+#vote:hover > #meh {
+  opacity: 0.75;
 }
-i.icon.icon-meh {
-   background-image: url("https://dl.dropboxusercontent.com/s/ek8bl0bg6qvztgu/Meh.png") !important;
-   background-position: 1px 0px;
-}
-i.icon.icon-star-white {
-   background-image: url("https://dl.dropboxusercontent.com/s/aqab9ym4n0dfmj6/Grabselected.png") !important;
-   background-position: 1px 0px;
-}
-#woot .icon.icon-woot-disabled {
-   background-image: url("https://dl.dropboxusercontent.com/s/jyudv2960jwwewk/Wootselected.png") !important;
-   background-position: 1px 0px;
-}
-#grab .icon.icon-grab-disabled {
-    background-image: url("https://dl.dropboxusercontent.com/s/aqab9ym4n0dfmj6/Grabselected.png") !important;
-    background-position: 1px 0px;
-}
-#meh .icon.icon-meh-disabled {
-    background-image: url("https://dl.dropboxusercontent.com/s/w8b6pxsinyswg3n/Mehselected.png") !important;
-    background-position: 1px 0px;
+
+#vote #woot:hover, 
+#vote #grab:hover, 
+#vote #meh:hover {
+  opacity: 1;
 }
 
 /*Rcs and p3 edits*/
