@@ -1,0 +1,669 @@
+Css: Armeðq
+
+
+/*room icons*/
+.icon.icon-site-logo {
+    background: url("https://dl.dropboxusercontent.com/s/4pakgq6c44yrs2c/plug.png") repeat scroll 0% 0% transparent !important;
+    background-position: -5px 0px;
+}
+.icon-room {
+   background: url("http://imgur.com/5fF6Das") !important;
+   background-size: 30px 30px !important;
+}
+i.icon.icon-current-dj {
+    background-image: url("http://imgur.com/8XevcYK") !important; 
+    background-position: 1px 0px;
+}
+#app{
+  background-image:url("https://cdn.radiant.dj/rcs/bg/4.png");
+  background-size:cover !important;
+}   
+
+/*badges*/
+/*custom badges*/
+[data-cid^="4412452-"] i.bdg {
+    background: url("https://dl.dropboxusercontent.com/s/b1fyr126dzdlc9x/wolf.png") !important;
+}
+[data-cid^="5751399-"] i.bdg {
+    background: url("https://dl.dropboxusercontent.com/s/l71tm5nm30xjrbl/Cube.png") !important;
+}
+/*changed badges*/
+i.bdg.bdg-admin-g.g {
+    background: url("https://dl.dropboxusercontent.com/s/vlzw1vcc86s7gfs/Admin.png") !important;
+}
+i.bdg.bdg-bt-g.g {
+    background: url("https://dl.dropboxusercontent.com/s/x8xbmulox98tp2k/B1.png") !important;
+}
+i.bdg.bdg-ea-g.g {
+    background: url("https://dl.dropboxusercontent.com/s/l81b7c4w86z9r5q/B2.png") !important;
+}
+i.bdg.bdg-og-g.g {
+    background: url("https://dl.dropboxusercontent.com/s/abzetqh5iyn0y7z/B3.png") !important;
+}
+i.bdg.bdg-ss-g.g {
+    background: url("https://dl.dropboxusercontent.com/s/gambmvehgv5xrr6/B4.png") !important;
+}
+/*classic badges*/
+i.bdg.bdg-admin-o01.o {
+    background: url("https://dl.dropboxusercontent.com/s/rk9h46dqkvjlqz1/Admin%20badge.gif") !important;
+}
+i.bdg.bdg-animal-o05.o {
+    background: url("https://dl.dropboxusercontent.com/s/3e5mmxroabvao5t/Snake.gif") !important;
+}
+i.bdg.bdg-animal-o10.o {
+    background: url("https://dl.dropboxusercontent.com/s/ol90kvwe7am1w8m/BoxDog.gif") !important;
+}
+i.bdg.bdg-warrior-o02.o {
+    background: url("https://dl.dropboxusercontent.com/s/sjeyyk931xfbta9/NinjaF.gif") !important;
+}
+/*Large badge Fix*/
+i.bdg.large.bdg-admin-g.g,
+i.bdg.large.bdg-bt-g.g,
+i.bdg.large.bdg-ea-g.g,
+i.bdg.large.bdg-og-g.g,
+i.bdg.large.bdg-ss-g.g,
+i.bdg.large.bdg-admin-o01.o ,
+i.bdg.large.bdg-animal-o05.o,
+i.bdg.large.bdg-warrior-o02.o,
+i.bdg.large.bdg-animal-o10.o{
+    width: 30px;
+    height: 30px;
+	position: relative !important;
+    top: 55px !important;
+}
+	
+/*Chat*/
+#chat {
+    background-color: rgba(10, 10, 10, 0.75);
+}
+#chat-input{
+    border-radius: 50px;
+}
+#chat .message:nth-child(2n+1),#chat .mention:nth-child(2n+1),#chat .skip:nth-child(2n+1),#chat .moderation:nth-child(2n+1),#chat .emote:nth-child(2n+1),#chat .update:nth-child(2n+1),#chat .welcome:nth-child(2n+1) {
+    background-color: rgba(17, 19, 23, 0.32);
+    -webkit-animation:fadein 0.25s;
+    -moz-animation:fadein 0.25s;
+    -ms-animation:fadein 0.25s;
+    -o-animation:fadein 0.25s;
+    animation:fadein 0.25s;
+}
+#chat .emote, #chat .mention, #chat .message, #chat .moderation, #chat .skip, #chat .system, #chat .update, #chat .welcome {
+    -webkit-animation:fadein 0.25s;
+    -moz-animation:fadein 0.25s;
+    -ms-animation:fadein 0.25s;
+    -o-animation:fadein 0.25s;
+    animation:fadein 0.25s;
+}
+#chat .mention {
+    font-weight: 700;
+    border-left: #7681FF 3px solid;
+}
+#chat .emote .from {
+     color: #ac76ff !important;
+}
+#chat .emote {
+    border-left: rgba(174, 69, 189, 1) 3px solid !important;
+    background-color: rgba(76, 93, 119, 0.22) !important;
+}
+#chat .emote .text {
+    font-style: normal;
+    font-weight: bold;
+    color: #ac76ff;
+}
+#chat .mention .msg {
+    background: linear-gradient(to right,rgba(255, 118, 118, 0) 0,rgba(0, 98, 225, 0.27) 100%) !important;
+}
+#chat .message:hover, #chat .emote:hover, #chat .update:hover {
+    -moz-transition: 100ms linear 50ms;
+    -o-transition: 100ms linear 50ms;
+    -webkit-transition: 100ms linear 50ms;
+    border-left: #0080FF 3px solid;
+    background: rgba(0, 77, 255, 0.15);
+	padding-left: 3px;
+    text-decoration: none;
+    transition: 100ms linear 50ms;
+}
+#chat .moderation:hover {
+     -moz-transition: 100ms linear 50ms;
+     -o-transition: 100ms linear 50ms;
+     -webkit-transition: 100ms linear 50ms;
+      border-left: #ac76ff 3px solid;
+      padding-left: 3px;
+      text-decoration: none;
+      transition: 100ms linear 50ms;
+}
+
+/*plug menu*/
+.item{
+        -webkit-transition:     all 0.3s ease;
+        -moz-transition:        all 0.3s ease;
+        -o-transition:          all 0.3s ease;
+        transition:             all 0.3s ease;
+}
+.item.community:hover,
+.item.support:hover,
+.item.about:hover,
+.item.api:hover,
+.item.terms:hover,
+.item.privacy:hover{
+    -webkit-box-shadow:     inset 180px 0 0 0 rgba(25, 58, 116, 1) !important;
+    -moz-box-shadow:        inset 225px 0 0 0 rgba(25, 58, 116, 1) !important;
+    -o-box-shadow:          inset 225px 0 0 0 rgba(25, 58, 116, 1) !important;
+    box-shadow:             inset 225px 0 0 0 rgba(25, 58, 116, 1) !important;
+}
+#rcs-unload.rcsunload:hover,
+.logout:hover{
+    -webkit-transition:     all 0.3s ease;
+    -moz-transition:        all 0.3s ease;
+    -o-transition:          all 0.3s ease;
+    transition:             all 0.3s ease;
+    -webkit-box-shadow:     inset 0 0 0 5px rgba(108, 38, 23, 1) !important;
+    -moz-box-shadow:        inset 0 0 0 5px rgba(108, 38, 23, 1) !important;
+    -o-box-shadow:          inset 0 0 0 5px rgba(108, 38, 23, 1) !important;
+    box-shadow:             inset 0 0 0 5px rgba(108, 38, 23, 1) !important;
+}
+
+/*transparency*/
+#toast-notifications .notification .right:hover {
+   background: rgba(0, 0, 0, 0.35) !important;
+}
+#footer {
+   background-color: rgba(0, 0, 0, 0.50) !important;
+}
+#settings .header {
+   background-color: rgba(28, 31, 37, 0.78) !important;
+}
+#settings {
+   background-color: rgba(10, 10, 10, 0.89) !important;
+}
+#room .app-right,
+#room .app-header{
+   opacity: 0.86 !important;
+}           
+#room .header-panel-bar,
+#header-panel-bar {
+   background: 0.75;
+}
+#room .history-button,
+#history-button {
+   background-color: 0.75;
+}
+#room .plug-menu {
+   background-color: rgba(40, 44, 53, 0.94) !important;
+}
+#room .plug-menu .legal {
+   background-color: rgba(68, 74, 89, 0.46) !important;
+}
+#room .settings {
+   background-color: rgba(10, 10, 10, 0.89) !important;
+}
+#room .settings .header {
+   background-color: rgba(28, 31, 37, 0.78) !important;
+}
+#app-header .left-meta {
+   color: rgba(40, 44, 53, 0.94) !important;
+}
+#playlist-button {
+   background: rgba(0, 191, 255, 0.8) !important;
+}
+#user-lists .list.staff .group {
+   background: linear-gradient(to right,rgba(0, 0, 0, 0) 0,rgba(0, 0, 0, 1) 100%) !important;
+}
+#plug-menu {
+   background-color: rgba(40, 44, 53, 0.94) !important;
+}
+#plug-menu .legal {
+   background-color: rgba(68, 74, 89, 0.46) !important;
+}
+#user-rollover {
+   background: rgba(0, 0, 0, 0.56) !important;
+}
+#user-rollover .info{
+    background: rgba(0, 0, 0, 0.18);
+}
+#user-rollover.expand.chat .arrow-down {
+   border-left: 8px solid rgba(0, 0, 0, 0.4) !important;
+}
+#user-rollover .arrow-down {
+   border-top: 8px solid rgba(0, 0, 0, 0.4) !important;
+}
+#room-settings,
+#user-view {
+    background: rgba(0, 0, 0, 0.84) !important;
+}
+#room-settings-menu,
+#user-menu {
+    background: rgba(0, 0, 0, 0.13) !important;
+}
+#user-inventory .cell {
+	background: rgba(28, 31, 37, 0.59) !important;
+}
+#user-inventory .cell:hover {
+	background: rgba(28, 31, 37, 0.80) !important;
+}
+.user-content .grid .cell .top{
+    opacity: 0.6 !important;
+}
+.experience .xp .bar {
+    background: rgba(40, 44, 53, 0.46) !important;
+}
+.experience .xp .bar .progress {
+    background: rgba(0, 156, 221, 0.45) !important;
+}
+#playlist-panel {
+    background: rgba(0, 0, 0, 0.7) !important;
+}
+#playlist-menu {
+    background: rgba(0, 0, 0, 0.2)!important;
+}
+#user-rollover .actions .action{
+box-shadow: inset 1px 1px 0 0 rgba(0, 0, 0, 0.22);
+}
+#footer-user .info {
+    background: rgba(0, 0, 0, 0.64)!important;
+}
+.back {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+.back:hover {
+    background: rgba(0, 0, 0, 0.7) !important;
+}
+
+/*dashboard changes*/
+#dashboard .cell {
+   border-radius: 30px;
+}
+#dashboard {
+   background-color: rgba(0, 0, 0, 0.85) !important;
+}
+.communities .grid .cell,
+.communities .grid .cell .meta,
+.communities .grid .cell .bar {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+.communities .grid .cell:hover>.meta {
+    background: rgba(0, 0, 0, 0.41) !important;
+}
+.communities .grid .cell .favorite {
+    background: rgba(105, 105, 105, 0.11) !important;
+}
+.communities .grid .cell .meta .join {
+    border: 1px solid #385790 !important;
+    background: rgba(28, 0, 117, 0.33) !important;
+}
+
+/*Dj Button*/
+#dj-button {
+   background-color: rgba(0, 0, 0, 0.35) !important;
+}
+#dj-button
+{
+        -webkit-transition:     all 0.3s ease;
+        -moz-transition:        all 0.3s ease;
+        -o-transition:          all 0.3s ease;
+        transition:             all 0.3s ease;
+}
+#dj-button.is-quit:hover{
+    opacity:                1;
+    -webkit-box-shadow:     inset 230px 0 0 0 rgba(244, 107, 64, 0.35) !important;
+    -moz-box-shadow:        inset 230px 0 0 0 rgba(244, 107, 64, 0.35) !important;
+    -o-box-shadow:          inset 230px 0 0 0 rgba(244, 107, 64, 0.35) !important;
+    box-shadow:             inset 230px 0 0 0 rgba(244, 107, 64, 0.35) !important;
+}
+#dj-button.is-leave:hover{
+    opacity:                1;
+    -webkit-box-shadow:     inset 230px 0 0 0 rgba(244, 107, 64, 0.35) !important;
+    -moz-box-shadow:        inset 230px 0 0 0 rgba(244, 107, 64, 0.35) !important;
+    -o-box-shadow:          inset 230px 0 0 0 rgba(244, 107, 64, 0.35) !important;
+    box-shadow:             inset 230px 0 0 0 rgba(244, 107, 64, 0.35) !important;
+}
+#dj-button.is-wait:hover{
+    opacity:                1;
+    -webkit-box-shadow:     inset 230px 0 0 0 rgba(0, 181, 230, 0.35) !important;
+    -moz-box-shadow:        inset 230px 0 0 0 rgba(0, 181, 230, 0.35) !important;
+    -o-box-shadow:          inset 230px 0 0 0 rgba(0, 181, 230, 0.35) !important;
+    box-shadow:             inset 230px 0 0 0 rgba(0, 181, 230, 0.35) !important;
+}
+#dj-button.is-locked:hover{
+    opacity:                1;
+    -webkit-box-shadow:     inset 230px 0 0 0 rgba(115, 75, 169, 0.35) !important;
+    -moz-box-shadow:        inset 230px 0 0 0 rgba(115, 75, 169, 0.35) !important;
+    -o-box-shadow:          inset 230px 0 0 0 rgba(115, 75, 169, 0.35) !important;
+    box-shadow:             inset 230px 0 0 0 rgba(115, 75, 169, 0.35) !important;
+}
+#dj-button.is-join:hover{
+    opacity:                1;
+    -webkit-box-shadow:     inset 230px 0 0 0 rgba(0, 181, 230, 0.35) !important;
+    -moz-box-shadow:        inset 230px 0 0 0 rgba(0, 181, 230, 0.35) !important;
+    -o-box-shadow:          inset 230px 0 0 0 rgba(0, 181, 230, 0.35) !important;
+    box-shadow:             inset 230px 0 0 0 rgba(0, 181, 230, 0.35) !important;
+}
+i.icon.icon-join-waitlist-big,
+i.icon.icon-current-dj-white {
+    background-image: url("https://dl.dropboxusercontent.com/s/e2qat1j9h7svd3f/Join.png") !important;
+    background-position: 1px 0px;
+}
+i.icon.icon-leave-waitlist-big,
+i.icon.icon-leave-booth-big  {
+    background-image: url("https://dl.dropboxusercontent.com/s/r9j3jll4llrbxqt/Leave.png") !important;
+    background-position: 1px 0px;
+}
+
+/*Vote Buttons By: Wlff*/
+#vote,
+#woot,
+#woot .top,
+#woot .bottom,
+#grab,
+#grab .top,
+#grab .bottom,
+#meh,
+#meh .top,
+#meh .bottom{
+        -webkit-transition:     all 0.3s ease;
+        -moz-transition:        all 0.3s ease;
+        -o-transition:          all 0.3s ease;
+        transition:             all 0.3s ease;
+}
+#woot,
+#grab,
+#meh {
+   background-color: rgba(0, 0, 0, 0.35) !important;
+}
+#vote .crowd-response.disabled .bottom {
+   background: rgba(0, 0, 0, 0.28);
+}
+.bottom,
+#woot.selected .bottom,
+#grab.selected .bottom,
+#meh.selected .bottom {
+    background: 0 0;
+}
+#vote >#woot.crowd-response:hover:not(.disabled) .bottom,
+#vote >#woot.crowd-response.selected:hover:not(.disabled) .top{
+    background: rgba(144, 173, 47, 0.2);
+}
+#woot .bottom {
+    background: rgba(144, 173, 47, 0.5);
+}
+#vote >#grab.crowd-response:hover:not(.disabled) .bottom,
+#vote >#grab.crowd-response.selected:hover:not(.disabled) .top{
+    background: rgba(170, 116, 255, 0.2);
+}
+#grab .bottom {
+    background: rgba(170, 116, 255, 0.5);
+}
+#vote >#meh.crowd-response:hover:not(.disabled) .bottom,
+#vote >#meh.crowd-response.selected:hover:not(.disabled) .top{
+    background: rgba(196, 46, 59, 0.2);
+}
+#meh .bottom {
+    background: rgba(196, 46, 59, 0.5);
+}
+i.icon.icon-woot {
+   background-image: url("https://dl.dropboxusercontent.com/s/6vjqrxy37iu4489/Woot.png") !important;
+   background-position: 1px 0px;
+}
+i.icon.icon-grab {
+   background-image: url("https://dl.dropboxusercontent.com/s/4y0w8wd53it1evi/Grab.png") !important;
+   background-position: 1px 0px;
+}
+i.icon.icon-meh {
+   background-image: url("https://dl.dropboxusercontent.com/s/ek8bl0bg6qvztgu/Meh.png") !important;
+   background-position: 1px 0px;
+}
+i.icon.icon-star-white {
+   background-image: url("https://dl.dropboxusercontent.com/s/aqab9ym4n0dfmj6/Grabselected.png") !important;
+   background-position: 1px 0px;
+}
+#woot .icon.icon-woot-disabled {
+   background-image: url("https://dl.dropboxusercontent.com/s/jyudv2960jwwewk/Wootselected.png") !important;
+   background-position: 1px 0px;
+}
+#grab .icon.icon-grab-disabled {
+    background-image: url("https://dl.dropboxusercontent.com/s/aqab9ym4n0dfmj6/Grabselected.png") !important;
+    background-position: 1px 0px;
+}
+#meh .icon.icon-meh-disabled {
+    background-image: url("https://dl.dropboxusercontent.com/s/w8b6pxsinyswg3n/Mehselected.png") !important;
+    background-position: 1px 0px;
+}
+
+/*Rcs and p3 edits*/
+#woot-rs {
+    background: rgba(0, 156, 34, 0.35);
+    -webkit-animation:fadein 0.25s;
+    -moz-animation:fadein 0.25s;
+    -ms-animation:fadein 0.25s;
+    -o-animation:fadein 0.25s;
+    animation:fadein 0.50s;
+}
+#grab-rs {
+    background: rgba(222, 86, 255, 0.35);
+    -webkit-animation:fadein 0.25s;
+    -moz-animation:fadein 0.25s;
+    -ms-animation:fadein 0.25s;
+    -o-animation:fadein 0.25s;
+    animation:fadein 0.50s;
+}
+#meh-rs {
+    background: rgba(255, 39, 54, 0.35);
+	-webkit-animation: fadein 0.25s;
+    -moz-animation: fadein 0.25s;
+    -ms-animation: fadein 0.25s;
+    -o-animation: fadein 0.25s;
+    animation: fadein 0.50s;
+}
+.icon.icon-plugcubed {
+    background-image: url("https://dl.dropboxusercontent.com/s/5n4q27urt2rqa8h/p3.png") !important;
+}
+#p3-settings{
+	background-color: rgba(0, 0, 0, 0.85) !important;
+}
+#p3-settings-custom-colors .header,
+#p3-settings .header{
+    background-color: rgba(36, 44, 62, 0.46) !important;
+}
+
+/*list rollover*/
+#user-lists .list .user:hover {
+background-color: rgba(0, 77, 255, 0.15);
+border-left: rgb(0, 77, 255) 4px solid;
+border-right: rgb(0, 77, 255) 4px solid;
+border-radius: 10px;
+width: initial;
+-webkit-transition: 100ms linear 50ms;
+transition: 100ms linear 50ms;
+}
+.row:hover {
+    background-color: rgba(0, 77, 255, 0.10);
+    border-left: rgb(0, 77, 255) 4px solid;
+    border-right: rgb(0, 77, 255) 4px solid;
+	border-radius: 10px;
+    width: initial;
+    -webkit-transition: 100ms linear 50ms;
+    transition: 100ms linear 50ms
+}
+.media-list .row.selected {
+background: rgba(0, 77, 255, 0.35);
+border-left: rgb(0, 77, 255) 4px solid;
+border-right: rgb(0, 77, 255) 4px solid;
+border-radius: 10px;
+width: initial;
+-webkit-transition: 100ms linear 50ms;
+transition: 100ms linear 50ms;
+}
+#playlist-menu .menu .row.selected {
+background: rgba(0, 77, 255, 0.35);
+border-left: rgb(0, 77, 255) 4px solid;
+border-radius: 10px;
+border-right: rgb(0, 77, 255) 4px solid;
+width: initial;
+-webkit-transition: 100ms linear 50ms;
+transition: 100ms linear 50ms;
+}
+.media-list .row.selected.actions {
+background: rgba(0, 77, 255, 0.35);
+border-left: rgb(0, 77, 255) 4px solid;
+border-right: rgb(0, 77, 255) 4px solid;
+border-radius: 10px;
+width: initial;
+-webkit-transition: 100ms linear 50ms;
+transition: 100ms linear 50ms;
+}
+.row.playlist-media.now-playing {
+background: rgba(0, 77, 255, 0.75);
+border-left: rgb(0, 77, 255) 4px solid;
+border-right: rgb(0, 77, 255) 4px solid;
+border-radius: 10px;
+width: initial;
+-webkit-transition: 100ms linear 50ms;
+transition: 100ms linear 50ms;
+}
+.media-list .selected .actions,
+.media-list .actions {
+    background: rgba(0, 0, 0, 0.52) !important;
+}
+#user-friends .row:hover {
+	background: rgba(0, 0, 0, .36)!important;
+    border-left: #FFFC21 0px solid;
+    border-right: #FAFF44 0px solid;
+    border-radius: 0px;
+    -webkit-transition: 100ms linear 50ms;
+    transition: 100ms linear 50ms
+}
+
+/*animations n stuff*/
+#user-rollover .action,
+#footer-user .buttons .button,
+#footer-user .buttons .store.button{
+        -webkit-transition:     all 0.3s ease;
+        -moz-transition:        all 0.3s ease;
+        -o-transition:          all 0.3s ease;
+        transition:             all 0.3s ease;
+}
+#user-rollover .action.skip:hover{
+    -webkit-box-shadow:     inset 300px 0 0 0 rgba(0, 106, 218, 0.4) !important;
+    -moz-box-shadow:        inset 300px 0 0 0 rgba(0, 106, 218, 0.4) !important;
+    -o-box-shadow:          inset 300px 0 0 0 rgba(0, 106, 218, 0.4) !important;
+    box-shadow:             inset 300px 0 0 0 rgba(0, 106, 218, 0.4) !important;
+}
+#user-rollover .actions .action:hover {
+    background: rgba(0, 0, 0, 0.4);
+}
+#user-rollover .actions .action.mod-staff:hover {
+    background: rgba(24, 0, 27, 0.4);
+}
+#user-rollover .actions .action.ignore:hover,
+#user-rollover .actions .action.mod-ban:hover,
+#user-rollover .actions .action.mod-mute:hover {
+    background: rgba(28, 0, 0, 0.4);
+}
+#user-rollover .actions .action.giftsub:hover{
+	background: rgba(68, 45, 0, 0.4);
+}
+#user-rollover .actions .action.giftsub:hover span {
+   text-shadow: 0 0 10px #E59900;
+}
+#footer-user .buttons .button:hover {
+    background: rgba(0, 0, 0, 0.31);
+}
+#footer-user .buttons .button.inventory:hover {
+    -webkit-box-shadow: inset 1px 0 0 0 rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: inset 1px 0 0 0 rgba(0, 0, 0, 0.25);
+    box-shadow: inset 1px 0 0 0 rgba(0, 0, 0, 0.25);
+}
+#footer-user .buttons .button.store:hover {
+    background: rgba(0, 181, 230, 0.25);
+}
+
+/*Chat Effects*/
+#chat-messages .cm.message.fromID-4412452,
+#chat-messages .cm.message.id-4412452{
+	text-shadow: 0 0 10px #0046DD;
+}
+
+/*special things ;D */
+#footer .bar-button .section .chevron:before,
+#footer .bar-button .section .chevron:after{
+    background: rgba(0, 0, 0, 0.3);
+}
+.chevron{
+	 -webkit-transition:     all 0.3s ease;
+     -moz-transition:        all 0.3s ease;
+     -o-transition:          all 0.3s ease;
+     transition:             all 0.3s ease;
+	 right: 7px;
+}
+#playlist-meta:hover .chevron{
+	 padding: 7px !important;
+	 top: 21px !important;
+}
+#user-rollover.id-4412452 .thumb {
+    border-color: rgb(36, 175, 130) !important;
+}
+#user-rollover.id-4412452 .meta .username,
+#user-rollover.id-4412452.is-staff .info .role span {
+    color: #049eff;
+}
+#user-rollover .meta.online .status i {
+	 border: 2px solid !important;
+	 -webkit-animation: rainbow 4s infinite;
+    -ms-animation: rainbow 4s infinite;
+    -o-animation: rainbow 4s infinite;
+    animation: rainbow 4s infinite;
+}
+#user-rollover .meta.online .status span {
+    -webkit-animation: rainbow 4s infinite;
+    -ms-animation: rainbow 4s infinite;
+    -o-animation: rainbow 4s infinite;
+    animation: rainbow 4s infinite;
+}
+#user-rollover .meta.subscriber .status span {
+   text-shadow: 0 0 10px #E59900;
+}
+#user-rollover.id-4412452 .info .value {
+    color: #C9AD0B;
+   text-shadow: 0 0 10px #E59900;
+}
+#user-rollover .info .role .icon-chat-host {
+ background: url("http://imgur.com/g7Ny56G") !important;
+}
+
+/*Define Animation*/
+@keyframes rainbow {
+from{
+    color: #ffff00;
+}
+
+50% {
+    color: #00ff00;
+}
+100% {
+    color: #ff0000;
+}
+}
+@keyframes fadein {
+  from {opacity: 0;};
+  to {opacity: 1;};
+}
+
+@-moz-keyframes fadein {
+  from {opacity: 0;};
+  to {opacity: 1;};
+}
+
+@-webkit-keyframes fadein {
+  from {opacity: 0;};
+  to {opacity: 1;};
+}
+
+@-ms-keyframes fadein {
+  from {opacity: 0;};
+  to {opacity: 1;};
+}
+
+@-o-keyframes fadein {
+  from {opacity: 0;};
+  to {opacity: 1;};
+}
